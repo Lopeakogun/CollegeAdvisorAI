@@ -1,0 +1,16 @@
+# secrets — never commit
+.streamlit/secrets.toml
+Agents/.streamlit/secrets.toml
+*.json
+
+# databases
+*.db
+
+# python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
